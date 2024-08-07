@@ -1,0 +1,48 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    
+}
+
+.main > h1{
+    width: 100%;
+    text-align: center;
+}
+
+.transList{
+    width: 60%;
+    height: 70px;
+    border: 1px solid white;
+    border-right: 0;
+    border-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+}
+
+.transList:hover{
+    background-color: rgb(58, 58, 58);
+    cursor: pointer;
+}
+
+.date{
+    width: 70px; 
+    height: 80%;
+    background-color: rgb(199, 199, 199);  
+    color: black; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 3px 0px rgb(245, 183, 183);
+}
+
+.expenseAmt{
+    color: red;
+}
+
+.incomeAmt{
+    color: green;
+}
+

@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+.main > h1{
+    width: 100%;
+    text-align: center;
+}
+
+.pie{
+    height: 400px;
+    width: 400px;
+}

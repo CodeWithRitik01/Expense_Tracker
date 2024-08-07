@@ -1,0 +1,19 @@
+{
+  "transactions": [
+    {
+      "id": "24d2",
+      "type": "income",
+      "category": "Salary",
+      "amount": "50000",
+      "date": "2024-08-06T12:25:18.257Z"
+    },
+    {
+      "id": "95ea",
+      "type": "expense",
+      "category": "bill",
+      "amount": "500",
+      "date": "2024-08-06T12:32:56.598Z"
+    }
+
+  ]
+}
