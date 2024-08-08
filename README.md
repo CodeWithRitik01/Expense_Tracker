@@ -8,6 +8,10 @@ A simple personal finance tracker application built with React, JSON Server, and
 ![Screenshot (330)](https://github.com/user-attachments/assets/6ed39c94-8981-4e16-9094-6be8276f8de7)
 ![Screenshot (331)](https://github.com/user-attachments/assets/da98af5f-145f-446a-ac5a-954a1c608e18)
 
+### deployed link
+
+("https://expense-tracker-dun-gamma.vercel.app/")
+
 ## Features
 
 - Add income and expense transactions
