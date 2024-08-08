@@ -7,7 +7,7 @@ const INITIALSTATE = {
 
 export const getInitialStateAsync = createAsyncThunk("api/trans",
     () => {
-        const data = axios.get("http://localhost:4000/transactions");
+        const data = axios.get("https://expense-tracker-server-udpa.onrender.com/transactions");
         return data;
     }
 )
@@ -19,7 +19,7 @@ export const addTransactionAsync = createAsyncThunk("api/add", async(payload) =>
     const data = { type, category, amount, date };
 
     const response = await axios.post(
-        "http://localhost:4000/transactions",
+        "https://expense-tracker-server-udpa.onrender.com/transactions",
         data
         
     );

@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Personal Finance Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple personal finance tracker application built with React, JSON Server, and Chart.js. This application allows users to track their income and expenses, categorize them, and display summary statistics.
 
-## Available Scripts
+![Screenshot (327)](https://github.com/user-attachments/assets/88f22147-32a8-47c9-8767-6ddcc7082bbe)
+![Screenshot (328)](https://github.com/user-attachments/assets/60c76d35-b0e5-4aee-b25e-38216c48f1ef)
+![Screenshot (329)](https://github.com/user-attachments/assets/69fbd1d3-b8f3-4aa5-8daa-08bb9c9b6efa)
+![Screenshot (330)](https://github.com/user-attachments/assets/6ed39c94-8981-4e16-9094-6be8276f8de7)
+![Screenshot (331)](https://github.com/user-attachments/assets/da98af5f-145f-446a-ac5a-954a1c608e18)
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Add income and expense transactions
+- Display a list of all transactions
+- Show summary statistics (total income, total expenses, and balance)
+- Breakdown of expenses by category using a pie chart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- React
+- JSON Server
+- Chart.js
+- Axios
+- Redux
+- React-router
 
-### `npm test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Follow these instructions to set up and run the project on your local machine.
 
-### `npm run build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm installed on your machine
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Installation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Clone the repository
 
-### `npm run eject`
+   ```bash
+   git clone https://github.com/CodeWithRitik01/Expense_Tracker.git
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install the dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   npm install
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install JSON Server globally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   npm install -g json-server
 
-## Learn More
+## Running the Application
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1.Start the JSON Server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+  - cd server
+  - json-server --watch data.json --port 4000
 
-### Code Splitting
+2. Start the React application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   npm start
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## State Management
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application uses React-redux for global state management.
+  
